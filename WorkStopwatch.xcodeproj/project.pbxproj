@@ -6,8 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D5B7760F2FA1781D00522CDA /* idle.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5B7760B2FA1781D00522CDA /* idle.gif */; };
+		D5B776102FA1781D00522CDA /* gone.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5B7760A2FA1781D00522CDA /* gone.gif */; };
+		D5B776112FA1781D00522CDA /* phonecall.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5B7760C2FA1781D00522CDA /* phonecall.gif */; };
+		D5B776122FA1781D00522CDA /* shortbreak.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5B7760D2FA1781D00522CDA /* shortbreak.gif */; };
+		D5B776132FA1781D00522CDA /* working.gif in Resources */ = {isa = PBXBuildFile; fileRef = D5B7760E2FA1781D00522CDA /* working.gif */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D5B468862FA05524002A418E /* WorkStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B7760A2FA1781D00522CDA /* gone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gone.gif; sourceTree = "<group>"; };
+		D5B7760B2FA1781D00522CDA /* idle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = idle.gif; sourceTree = "<group>"; };
+		D5B7760C2FA1781D00522CDA /* phonecall.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = phonecall.gif; sourceTree = "<group>"; };
+		D5B7760D2FA1781D00522CDA /* shortbreak.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = shortbreak.gif; sourceTree = "<group>"; };
+		D5B7760E2FA1781D00522CDA /* working.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = working.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +45,9 @@
 		D5B4687D2FA05524002A418E = {
 			isa = PBXGroup;
 			children = (
-				D5B468882FA05524002A418E /* WorkStopwatch */,
+				D5B776092FA177DC00522CDA /* DefaultImages */,
 				D5B468872FA05524002A418E /* Products */,
+				D5B468882FA05524002A418E /* WorkStopwatch */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +57,18 @@
 				D5B468862FA05524002A418E /* WorkStopwatch.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D5B776092FA177DC00522CDA /* DefaultImages */ = {
+			isa = PBXGroup;
+			children = (
+				D5B7760A2FA1781D00522CDA /* gone.gif */,
+				D5B7760B2FA1781D00522CDA /* idle.gif */,
+				D5B7760C2FA1781D00522CDA /* phonecall.gif */,
+				D5B7760D2FA1781D00522CDA /* shortbreak.gif */,
+				D5B7760E2FA1781D00522CDA /* working.gif */,
+			);
+			path = DefaultImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B7760F2FA1781D00522CDA /* idle.gif in Resources */,
+				D5B776102FA1781D00522CDA /* gone.gif in Resources */,
+				D5B776112FA1781D00522CDA /* phonecall.gif in Resources */,
+				D5B776122FA1781D00522CDA /* shortbreak.gif in Resources */,
+				D5B776132FA1781D00522CDA /* working.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +283,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,8 +323,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (

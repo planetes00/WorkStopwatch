@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Xcode user-specific
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods (if you ever use them)
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
