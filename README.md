@@ -44,7 +44,7 @@ Phase transitions happen automatically; the GIF swaps without any user action at
 WorkStopwatch is distributed as source — clone and build in Xcode.
 
 ```bash
-git clone https://github.com/<your-username>/WorkStopwatch.git
+git clone https://github.com/planetes00/WorkStopwatch.git
 cd WorkStopwatch
 open WorkStopwatch.xcodeproj
 ```
