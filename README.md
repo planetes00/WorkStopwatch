@@ -2,7 +2,7 @@
 
 A macOS menu bar stopwatch with an animated character that reacts to your work and break states. Customizable, Shortcuts-friendly, and unobtrusive.
 
-![Demo](docs/demo.gif)
+<img src="docs/demo.gif" alt="Demo" width="200">
 ## Why
 
 This project started because of [this Windows-only timer on Acon3D](https://www.acon3d.com/ko/product/1000047699) — a charming character-based project timer that I really wanted to use, but couldn't, because I'm on macOS. Rather than dual-boot or run a VM just for a stopwatch, I built my own.
