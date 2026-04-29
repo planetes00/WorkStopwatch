@@ -2,8 +2,7 @@
 
 A macOS menu bar stopwatch with an animated character that reacts to your work and break states. Customizable, Shortcuts-friendly, and unobtrusive.
 
-<!-- ![Demo](docs/demo.gif) -->
-
+![Demo](docs/demo.gif)
 ## Why
 
 This project started because of [this Windows-only timer on Acon3D](https://www.acon3d.com/ko/product/1000047699) — a charming character-based project timer that I really wanted to use, but couldn't, because I'm on macOS. Rather than dual-boot or run a VM just for a stopwatch, I built my own.
@@ -44,7 +43,7 @@ Phase transitions happen automatically; the GIF swaps without any user action at
 WorkStopwatch is distributed as source — clone and build in Xcode.
 
 ```bash
-git clone https://github.com/planetes00/WorkStopwatch.git
+git clone https://github.com/<your-username>/WorkStopwatch.git
 cd WorkStopwatch
 open WorkStopwatch.xcodeproj
 ```
@@ -147,9 +146,14 @@ This was built as a personal tool, but PRs are welcome — especially for:
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+This project uses **dual licensing**:
 
-Default character illustrations are © the project author and included under the same MIT license unless replaced.
+- **Source code** (`.swift` files, project configuration) — [MIT](LICENSE-CODE). Free to use, modify, and redistribute.
+- **Character illustrations and GIF assets** in `DefaultImages/` — [CC BY-NC-ND 4.0](LICENSE-ASSETS). Personal use only as bundled with this app; **no redistribution, modification, or commercial use**.
+
+See [LICENSE](LICENSE) for the overview.
+
+If you fork this project to ship with different art, simply replace the files in `WorkStopwatch/DefaultImages/`. Your replacement assets are subject to whatever license you choose.
 
 ## Credits
 

@@ -1,21 +1,31 @@
-MIT License
+# WorkStopwatch — Licensing
 
-Copyright (c) 2026 planetes00
+This project uses dual licensing:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Source code
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+All source code (`.swift` files, project configuration, build scripts) is licensed under the **MIT License**. See [LICENSE-CODE](LICENSE-CODE).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You are free to use, modify, and redistribute the code, including for commercial purposes, with attribution.
+
+## Character illustrations and GIF assets
+
+The character art and animated GIFs in `WorkStopwatch/DefaultImages/` are **NOT covered by the MIT license**.
+
+These illustrations are © 2026 planetes00 and are licensed under
+**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**.
+
+In short:
+- ✅ You may view and use them as bundled with this app, for personal use
+- ❌ You may NOT redistribute, modify, or create derivative works
+- ❌ You may NOT use them for commercial purposes
+- ❌ You may NOT extract them for use in other projects
+
+See [LICENSE-ASSETS](LICENSE-ASSETS) for full terms, or
+https://creativecommons.org/licenses/by-nc-nd/4.0/ for the canonical text.
+
+If you want to use the characters in another context, please contact the author.
+
+## Replacing the assets
+
+If you fork this project and want to ship it with different art, simply replace the files in `WorkStopwatch/DefaultImages/` with your own. Your replacement assets are subject to whatever license you choose for them.
