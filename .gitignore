@@ -1,0 +1,8 @@
+
+# macOS junk
+.DS_Store
+Icon?
+
+# Xcode user state (per-machine)
+*.xcuserstate
+xcuserdata/
